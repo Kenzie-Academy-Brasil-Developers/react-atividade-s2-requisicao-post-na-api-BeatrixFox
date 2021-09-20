@@ -1,0 +1,55 @@
+.Login-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 2px dotted chartreuse;
+  border-radius: 20px;
+  background-color: darkblue;
+  height: 350px;
+  width: 370px;
+}
+.Login-title {
+  font-style: italic;
+  font-size: 30px;
+  color: cyan;
+  margin: 18px;
+}
+.Login-form {
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  margin: 5px;
+}
+.Login-form input {
+  font-size: 25px;
+  margin: 5px auto;
+  width: 320px;
+  border-radius: 5px;
+  background-color: lightgreen;
+}
+.Login-form input::placeholder {
+  background-color: rgb(144, 216, 238);
+}
+.Login-form button {
+  font-size: 20px;
+  background-color: greenyellow;
+  color: indigo;
+  font-weight: bold;
+  padding: 7px;
+  position: absolute;
+  left: 25px;
+  bottom: 90px;
+  width: 320px;
+}
+.Login-form button:hover {
+  background-color: darkgreen;
+  opacity: 0.6;
+  color: rgb(240, 234, 200);
+}
+.messages-err p {
+  margin: 2px;
+}
+.Login-permission {
+  margin: 20px auto;
+  text-decoration: underline;
+}
